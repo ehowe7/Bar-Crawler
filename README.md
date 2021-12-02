@@ -1,10 +1,22 @@
-# team_18_m2
+How to get the project running
+1. This program runs in JavaFX and requires the libraries:
+- junit-4.12
+- javafx-sdk 11.0.2
+- org.testfx:testfx-core:4.0.6-alpha
+- org.testfx:testfx-junit:4.0.6-alpha
+- org.loadui:testFx:3.1.2
+*These libraries must be executed at compile time
 
-For this milestone, our highest priority was making sure the basic mechanisms underlying our current code worked flawlessly and understanding how TestFX functions and how to use it optimally.  Our goal was to exhaustively test the buttons and text field on our welcome screen and to ensure their usability.
-Sal’s tests involve making sure that the difficulty buttons are properly recorded.  This is done by checking to ensure that on the initial game screen, the correct amount of money for the given difficulty level is reflected.
-Bella’s tests ensure valid usernames are handled properly.  Correct usernames are checked by verifying their presence on the next screen. Invalid usernames are not allowed to progress and instead met with a warning.
-Shane’s tests check that the weapon that was selected is reflected in the initial game screen.
-Emerson’s tests ensure that the whitespace surrounding names entered is removed.  This is done by checking that the name which appears on the initial game screen has been stripped of whitespace.
-Ethan’s tests ensure the basic functionality of all key buttons.  This is done by engaging with the buttons and making sure they result in the proper screens and/or responses from the program as in the above tests.
+2. Set VM options for the configuration
+--module-path $FILE_PATH$ --add-modules=javafx.controls,javafx.fxml,javafx.base  
 
-These TestFX cases ensure that our code works exactly as intended.  Because of the thoroughness of our tests, we feel confident in using the code we have written so far as a basis upon which we can expand with more content, mechanics, and graphics, and refer back to for a basic understanding of proper functionality as we expand our game.  Furthermore, it has provided us with a critical baseline understanding of the purpose and syntax of TestFX.
+3. Boot the program
+ 
+what is finished
+The entire project was completed over the course of 1 semster by a team of 5 students. As a result, 
+we concentrated on implementing the fuctionality of the game rather than visuals. 
+
+ 
+what is work in progress
+Visuals - Start/End screens are basic JavaFX screens
+Coding - There a some bugs with the application regaurding hitboxes to change rooms.

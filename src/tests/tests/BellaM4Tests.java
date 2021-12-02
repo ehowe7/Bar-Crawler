@@ -2,10 +2,9 @@ package tests;
 
 import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.testfx.framework.junit.ApplicationTest;
 import src.controller.Main;
-
 import static org.junit.Assert.*;
 
 
